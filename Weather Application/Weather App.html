@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script defer src="app.js"></script>
+    <title>Weather Application</title>
+</head>
+<body>
+    <nav class="nav">
+            <div class="logo">Udit</div>
+            <a href="#" class="toggle-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="nav-other">
+                <ul>
+                <li class="Home"><a href="#">Home</a></li>
+                <li class="about"><a href="#">About</a></li>
+                <li class="contact"><a href="#">Conatct</a></li>
+                </ul>
+            </div>
+    </nav>
+    
+    <div class="container">
+        <div class="searchBar">
+            <div class="search">
+            <input type="text" placeholder="Enter city">
+            </div>
+            <button class="search-btn"><span class="material-symbols-outlined">
+                search
+                </span></button>
+            </div>
+        <div class="city-name">
+            <h2 class="city">Agra</h2>
+            <span class="date">24 February</span>
+        </div>
+        <div class="temperature">
+           <temperature>27°C</temperature>
+           <span class="material-symbols-outlined">
+            sunny
+            </span>
+        </div>
+        <div class="other">
+            <div class="humidity-info">
+            <span class="material-symbols-outlined">
+                humidity_percentage
+            </span>
+            <span>Humidity</span>
+            <span class="humid-perc">25%</span>
+            </div>
+            <div class="wind">
+            <span class="material-symbols-outlined">
+                air
+            </span>
+            <span>Wind</span>
+            <span class="wind-speed">2.8</span>
+            </div>
+            <div class="visibility-info">
+            <span class="material-symbols-outlined">
+                visibility
+            </span>
+            <span>Visibility</span>
+            <span class="visibl">10</span>
+            </div>
+        </div>
+    </div>
+    <footer class="social-media">
+        <span class="material-symbols-outlined">
+            mail
+            </span>
+    </footer>
+</body>
+</html>
